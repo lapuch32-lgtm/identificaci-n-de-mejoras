@@ -1,1 +1,30 @@
 
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n1,n2,n3,r;
+cout << "dame el primer numero:";
+cin >> n1;
+cout << "dame el segundo numero:";
+cin >> n2;
+cout << "dame el tercer numero:";
+cin >> n3;
+r = (n1-n2)-n3;
+cout << "tu resultado es :" << r << endl;
+if (r  <0)
+cout << "tu resultado  es negativo" << endl;
+
+else if (r > 0)
+    {
+
+        cout << "tu resultado es positivo"  << endl;
+        }
+else {
+    cout << "tu resultado es cero" << endl;
+}
+return 0;
+}
