@@ -1,1 +1,22 @@
+Algoritmo resta
+	Definir n1,n2,n3,r Como Real
+	Escribir "dame el primer numero"
+	leer n1
+	Escribir "Dame el segundo numero"
+	leer n2
+	Escribir "Dame el tercer numero"
+	leer n3 
+	r<-n1-n2-n3
+	Escribir "tu resultado es:",r
+	Si r > 0 Entonces
+		Escribir "tu numero es positivo"
+	SiNo
+		Si r < 0 Entonces
+			Escribir "tu numero es negativo"
+		SiNo
+			Escribir "tu numero es 0"
+		Fin Si
+	Fin Si
+	
+FinAlgoritmo
 
